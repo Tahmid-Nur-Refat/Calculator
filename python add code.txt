@@ -1,0 +1,25 @@
+a = int(input("Type your first Number: "))
+b = int(input("Type your second Number: "))
+s = int(a) + int(b)
+s1 = int(a) - int(b)
+s2 = int(a) * int(b)
+s3 = int(a) / int(b)
+d = "Welcome to Calculator 1 = add, 2 = Sub, 3 = Mul, 4 = Div"
+c1 = "Chose your Number from 1 to 4"
+print(d)
+print(c1)
+c = int(input("Your Chosen Number is: "))
+if n == a >10:
+    print ("Number is too high")
+if n== b >10:
+    print ("Number is too high")
+if c == 1:
+    print("Sum is: ", s)
+elif c == 2:
+    print("Sub is: ", s1)
+elif c == 3:
+    print("Mul is: ", s2)
+elif c == 4:
+    print("Div is: ", s3)
+else:
+    print("!!!!!Your entered wrong key!!!!!")
